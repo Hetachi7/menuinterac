@@ -14,6 +14,8 @@ class MainActivity : AppCompatActivity() {
         clothingCard.setOnClickListener {
             val intent = Intent(this@MainActivity, clothing::class.java)
             startActivity(intent)
+            val toast = Toast.makeText(this, "Clothing", Toast.LENGTH_LONG)
+            toast.show()
         }
         val electroniCard = findViewById<CardView>(R.id.elecCard)
         electroniCard.setOnClickListener {
@@ -26,21 +28,29 @@ class MainActivity : AppCompatActivity() {
         HomeCard.setOnClickListener {
             val intent3 = Intent(this@MainActivity, Home::class.java)
             startActivity(intent3)
+            val toast = Toast.makeText(this, "Home", Toast.LENGTH_LONG)
+            toast.show()
         }
         val BeautyCard = findViewById<CardView>(R.id.Beatycard2)
         BeautyCard.setOnClickListener {
             val intent4 = Intent(this@MainActivity, Beauty::class.java)
             startActivity(intent4)
+            val toast = Toast.makeText(this, "Beauty", Toast.LENGTH_LONG)
+            toast.show()
         }
         val phamarCard = findViewById<CardView>(R.id.phamarcyCard)
         phamarCard.setOnClickListener {
             val intent5 = Intent(this@MainActivity, Phamarcy::class.java)
             startActivity(intent5)
+            val toast = Toast.makeText(this, "Phamarcy", Toast.LENGTH_LONG)
+            toast.show()
         }
         val groCard = findViewById<CardView>(R.id.groceriesCard)
         groCard.setOnClickListener {
             val intent6 = Intent(this@MainActivity, groceries::class.java)
             startActivity(intent6)
+            val toast = Toast.makeText(this, "Groaceries", Toast.LENGTH_LONG)
+            toast.show()
         }
     }
 }
