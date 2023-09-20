@@ -10,8 +10,8 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Electtitle"
-        android:text="Electronics"
+        android:id="@+id/groceriestitle"
+        android:text="Groceries"
         android:textSize="36sp"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/poppins_semibold"
@@ -20,7 +20,7 @@
     <ImageView
         android:layout_width="500dp"
         android:layout_height="500dp"
-        android:id="@+id/clothImage"
-        android:layout_below="@id/Electtitle"
-        android:src="@drawable/electronics"/>
+        android:id="@+id/groceriesImage"
+        android:layout_below="@id/groceriestitle"
+        android:src="@drawable/groceries"/>
 </RelativeLayout>

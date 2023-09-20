@@ -6,12 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".Electronics">
+    tools:context=".Beauty">
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/Electtitle"
-        android:text="Electronics"
+        android:id="@+id/Beautytitle"
+        android:text="Beauty"
         android:textSize="36sp"
         android:layout_marginTop="40dp"
         android:fontFamily="@font/poppins_semibold"
@@ -20,7 +20,7 @@
     <ImageView
         android:layout_width="500dp"
         android:layout_height="500dp"
-        android:id="@+id/clothImage"
-        android:layout_below="@id/Electtitle"
-        android:src="@drawable/electronics"/>
+        android:id="@+id/beautyImage"
+        android:layout_below="@id/Beautytitle"
+        android:src="@drawable/beauty"/>
 </RelativeLayout>

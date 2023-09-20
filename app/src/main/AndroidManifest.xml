@@ -13,6 +13,18 @@
         android:theme="@style/Base.Theme.Dashboard"
         tools:targetApi="31">
         <activity
+            android:name=".groceries"
+            android:exported="false" />
+        <activity
+            android:name=".Phamarcy"
+            android:exported="false" />
+        <activity
+            android:name=".Beauty"
+            android:exported="false" />
+        <activity
+            android:name=".Home"
+            android:exported="false" />
+        <activity
             android:name=".Electronics"
             android:exported="false" />
         <activity
